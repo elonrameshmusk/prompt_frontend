@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:prompt_frontend/screens/signup_screen.dart';
 import 'package:prompt_frontend/screens/signin_screen.dart';
+import 'package:prompt_frontend/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const SignInScreen(),
+      home: const HomeScreen(),
     );
   }
 }
