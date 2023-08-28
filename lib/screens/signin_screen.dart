@@ -25,9 +25,10 @@ class _SignInScreenState extends State<SignInScreen> {
   }
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: SafeArea(
-          child: Column(
+    return SafeArea(
+        child: Scaffold(
+          backgroundColor: Colors.white,
+          body: Column(
             children: [
               Expanded(
                 child: Center(
